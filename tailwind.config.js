@@ -2,7 +2,7 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    screen:{
+    screen: {
       sm: '460px',
       md: '760px',
       lg: '976px',
@@ -13,15 +13,14 @@ module.exports = {
       'secondary-col': '#7e5bef',
       'tertiary-col': '#ff49db',
       'white': '#ffffff',
-      'transparent':  'hsla(120, 60%, 70%, 0.0)',
+      'transparent': 'hsla(120, 60%, 70%, 0.0)',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': 'rgba(0, 160, 235, 0.3)',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      Poppins: ['Poppins', "sans-serif"],
     },
     extend: {
       spacing: {

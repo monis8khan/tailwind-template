@@ -11,26 +11,46 @@
 </head>
 
 <body class="font-Poppins">
-    <!-- navbar -->
-    <nav class="relative container p-6 mx-auto">
-        <!-- flex container -->
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
         <div class="flex items-center justify-between">
-            <!-- logo item -->
+            <!-- Logo -->
             <div class="pt-2">
                 <img src="https://api18.flowhcm.com/EmployeeImages/DefaultEmployeeImage.png?time=Mon%20Jul%2004%202022%2016:15:58%20GMT+0500%20(Pakistan%20Standard%20Time)"
-                    alt="test" width="100px">
+                    alt="" width="50px" />
             </div>
-            <!-- menu items -->
-            <div class="hidden md:flex space-x-6">
-                <a class="hover:text-primary-col" href="#">Pricing</a>
-                <a class="hover:text-primary-col" href="#">Products</a>
-                <a class="hover:text-primary-col" href="#">About us</a>
-                <a class="hover:text-primary-col" href="#">Careers</a>
-                <a class="hover:text-primary-col" href="#">Contact</a>
+            <!-- Menu Items -->
+            <div class="hidden space-x-6 md:flex">
+                <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a>
             </div>
+            <!-- Button -->
             <a href="#"
-                class="hidden md:block px-6 p-2 text-white bg-secondary-col rounded-full baseline hover:bg-primary-col">GET
-                STARTED</a>
+                class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get
+                Started</a>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+            </div>
         </div>
     </nav>
     <!-- hero section -->
@@ -207,53 +227,62 @@
             </div>
             <div class="my-16">
                 <a href="#"
-                        class="p-3 px-6 p-2 text-white bg-secondary-col rounded-full baseline hover:bg-primary-col">GET
-                        STARTED</a>
+                    class="p-3 px-6 p-2 text-white bg-secondary-col rounded-full baseline hover:bg-primary-col">GET
+                    STARTED</a>
             </div>
         </div>
     </section>
 
     <!-- call to action section -->
     <section id="cta" class="bg-tertiary-col">
-        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
-            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">Simplify How Your Team Works Today</h2>
+        <div
+            class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+                Simplify How Your Team Works Today</h2>
             <!-- button -->
             <div>
                 <a href="#"
-                class="p-3 px-6 p-2 text-white bg-secondary-col rounded-full baseline hover:bg-primary-col shadow-2xl">GET
-                STARTED</a>
+                    class="p-3 px-6 p-2 text-white bg-secondary-col rounded-full baseline hover:bg-primary-col shadow-2xl">GET
+                    STARTED</a>
             </div>
         </div>
     </section>
     <!-- footer section -->
     <footer class="bg-gray-dark">
-        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <div
+            class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
 
-            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <div
+                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
                 <div class="mx-auto my-6 text-center text-white md:hidden">
                     copywrite &copy; 2022, all rights reserved monis8khan
                 </div>
                 <!-- logo -->
                 <div>
-                    <img src="https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-14-256.png" class="h-20" alt="">
+                    <img src="https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-14-256.png"
+                        class="h-20" alt="">
                 </div>
                 <!-- social icons -->
                 <div class="flex justify-center space-x-4">
                     <!-- link-1 -->
                     <a href="#">
-                        <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" class="h-5" alt="">
+                        <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png"
+                            class="h-5" alt="">
                     </a>
                     <!-- link-2 -->
                     <a href="#">
-                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-512.png" class="h-5" alt="">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-512.png"
+                            class="h-5" alt="">
                     </a>
                     <!-- link-3 -->
                     <a href="#">
-                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" class="h-5" alt="">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png"
+                            class="h-5" alt="">
                     </a>
                     <!-- link-4 -->
                     <a href="#">
-                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" class="h-5" alt="">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png"
+                            class="h-5" alt="">
                     </a>
                 </div>
 
@@ -276,7 +305,8 @@
             <div class="flex flex-col justify-between">
                 <form action="">
                     <div class="flex space-x-3">
-                        <input type="text" class="flex-1 px-4 py-2 rounded-full focus:outline-none" placeholder="update in your inbox"/>
+                        <input type="text" class="flex-1 px-4 py-2 rounded-full focus:outline-none"
+                            placeholder="update in your inbox" />
                         <button class="px-6 py-2 bg-primary-col rounded-full hover:bg-secondary-col text-white">
                             Go
                         </button>
@@ -288,6 +318,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
